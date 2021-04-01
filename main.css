@@ -11437,7 +11437,7 @@ img {
 .block-main-banner .click-button {
 	padding: 4px 6px;
 	font-size: 1rem;
-	display: inline-flex;
+	display: none;
 	background-color: #3c3c3c;
 	border-radius: 30px;
 	align-items: center;
@@ -12024,6 +12024,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+	.block-main-banner .click-button {
+		display: inline-flex;
+	}
 	.block-demo-video {
 		display: none;
 	}
